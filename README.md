@@ -16,7 +16,7 @@ does not have information to determine the obesity level.
 Our main goal is to build a ML model, train it and make it estimate the Level of Obesity of 
 individuals, by Random Forest model.
 
-##  Discussion :
+###  Discussion :
 As we explained above, with and without feature selection we noticed in both that the 
 training model reaches 100%, which means that there is overfitting.
 Avg test accuracy without feature selection without hyperparameter tuning: 95.39431%
@@ -41,7 +41,7 @@ because the hyperparameter tuning without feature selection may take a long time
 We have benefited from applying feature selection, which will reduce the time 
 complexity of the model and less possibility of overfighting.
 
-## Conclusion : 
+### Conclusion : 
 In conclusion, we presented our work in this project an Obesity Level Estimator application 
 using Random Forest model. We faced several challenges since it is our first time to deal 
 with Random Forest model, also the time taken to find a suitable dataset to implement our 
@@ -50,4 +50,4 @@ learning we tries to train the model perfectly. Overall results shows that the m
 good prediction results with average of 95.42994% train accuracy and 92.01894% test 
 accuracy.
 
-# For details, visit our project on Google Colab .
+## For details, visit our project on Google Colab .
